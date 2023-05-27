@@ -9,3 +9,9 @@ for(j in range){
    
     }
 }
+if(!flag){
+                println("$j is a prime number.")}
+                else
+            println("$j is not a prime number")
+    }
+}
