@@ -2,8 +2,8 @@ fun main() {
     fun primenumber(range: IntProgression){
 for(j in range){
             var flag=false
-            for (range in 2..j/2) {
-                if (j% range==0){
+            for (i in 2..j/2) {
+                if (j% i==0){
                     flag=true
                     break
    
@@ -14,4 +14,6 @@ if(!flag){
                 else
             println("$j is not a prime number")
     }
+    }
+primenumber(100..999)
 }
